@@ -1,0 +1,10 @@
+C:\Users\NoPlayer\Documents\Visual Studio 2012\Projects\Main Load\Main Load\bin\Release\Main Load.exe.config
+C:\Users\NoPlayer\Documents\Visual Studio 2012\Projects\Main Load\Main Load\bin\Release\Main Load.exe
+C:\Users\NoPlayer\Documents\Visual Studio 2012\Projects\Main Load\Main Load\bin\Release\Main Load.pdb
+C:\Users\NoPlayer\Documents\Visual Studio 2012\Projects\Main Load\Main Load\bin\Release\Main Load.xml
+C:\Users\NoPlayer\Documents\Visual Studio 2012\Projects\Main Load\Main Load\obj\Release\Main_Load.Form1.resources
+C:\Users\NoPlayer\Documents\Visual Studio 2012\Projects\Main Load\Main Load\obj\Release\Main_Load.Resources.resources
+C:\Users\NoPlayer\Documents\Visual Studio 2012\Projects\Main Load\Main Load\obj\Release\Main Load.vbproj.GenerateResource.Cache
+C:\Users\NoPlayer\Documents\Visual Studio 2012\Projects\Main Load\Main Load\obj\Release\Main Load.exe
+C:\Users\NoPlayer\Documents\Visual Studio 2012\Projects\Main Load\Main Load\obj\Release\Main Load.xml
+C:\Users\NoPlayer\Documents\Visual Studio 2012\Projects\Main Load\Main Load\obj\Release\Main Load.pdb
