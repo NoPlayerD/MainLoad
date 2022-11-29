@@ -14,8 +14,7 @@
 
 Imports System.IO
 Imports Main_Load.FirstLoad
-Imports Main_Load.Tr
-Imports Main_Load.En
+Imports Main_Load.Language
 Imports System.Data
 
 Public Class Form1
@@ -591,9 +590,9 @@ Public Class Form1
         'msgbox'ları göstermemizi sağlar
 
         If lang = "Tr" Then
-            Tr.msg(code)
+            Language.Msg_TR(code)
         ElseIf lang = "En" Then
-            En.msg(code)
+            Language.Msg_EN(code)
         End If
 
         Return code
@@ -616,12 +615,12 @@ Public Class Form1
 
         If lang = "Tr" Then
             For i As Integer = 1 To 7
-                Tr.names(i)
+                Language.Names_TR(i)
                 sitem(i)
             Next
         Else
             For i As Integer = 1 To 7
-                En.names(i)
+                Language.Names_EN(i)
                 sitem(i)
             Next
         End If
@@ -633,37 +632,37 @@ Public Class Form1
         If lang = "Tr" Then
 
             If item = 1 Then
-                Button3.Text = Tr.read
+                Button3.Text = Language.read
             ElseIf item = 2 Then
-                GroupBox3.Text = Tr.read
+                GroupBox3.Text = Language.read
             ElseIf item = 3 Then
-                GroupBox6.Text = Tr.read
+                GroupBox6.Text = Language.read
             ElseIf item = 4 Then
-                Kilavuzbtn.Text = Tr.read
+                Kilavuzbtn.Text = Language.read
             ElseIf item = 5 Then
-                Button1.Text = Tr.read
+                Button1.Text = Language.read
             ElseIf item = 6 Then
-                Button5.Text = Tr.read
+                Button5.Text = Language.read
             ElseIf item = 7 Then
-                GroupBox5.Text = Tr.read
+                GroupBox5.Text = Language.read
             End If
 
         Else
 
             If item = 1 Then
-                Button3.Text = En.read
+                Button3.Text = Language.read
             ElseIf item = 2 Then
-                GroupBox3.Text = En.read
+                GroupBox3.Text = Language.read
             ElseIf item = 3 Then
-                GroupBox6.Text = En.read
+                GroupBox6.Text = Language.read
             ElseIf item = 4 Then
-                Kilavuzbtn.Text = En.read
+                Kilavuzbtn.Text = Language.read
             ElseIf item = 5 Then
-                Button1.Text = En.read
+                Button1.Text = Language.read
             ElseIf item = 6 Then
-                Button5.Text = En.read
+                Button5.Text = Language.read
             ElseIf item = 7 Then
-                GroupBox5.Text = En.read
+                GroupBox5.Text = Language.read
             End If
         End If
 

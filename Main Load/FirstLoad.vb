@@ -19,10 +19,13 @@ Module FirstLoad
     Dim MainPath As String = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData) + "\MainLoad"
 
     Public Sub FirstLoad()
+        'ilk başlangıç
 
         If Not Directory.Exists(MainPath) Then
             Directory.CreateDirectory(MainPath)
-            MsgBox("Uyarı, veri klasörü oluşturuldu.")
+            Dim msg As String
+            If My.Settings.Lang = "Tr" Then msg = "Uyarı, veri klasörü oluşturuldu." Else msg = "Warning, data folder has been created."
+            MsgBox(msg, MsgBoxStyle.Information)
         End If
         'Ana klasör MainPath
 
@@ -39,11 +42,10 @@ Module FirstLoad
         'Kategori klasörü MainPath
 
         Licence(MainPath + "\Settings\LICENCE.txt")
-
-
     End Sub
 
     Private Function Licence(path As String)
+        'her başlangıçta lisansı yenileme
 
         Try
             If File.Exists(path) Then
@@ -56,5 +58,4 @@ Module FirstLoad
         End Try
         Return path
     End Function
-
 End Module

@@ -75,18 +75,3 @@ C:\Users\NoPlayer\Desktop\v4.0\Main Load Tr\Main Load\bin\Debug\Main Load.applic
 C:\Users\NoPlayer\Desktop\v4.0\Main Load Tr\Main Load\obj\Debug\Main Load.exe.manifest
 C:\Users\NoPlayer\Desktop\v4.0\Main Load Tr\Main Load\obj\Debug\Main Load.application
 C:\Users\NoPlayer\Desktop\v4.0\Main Load Tr\Main Load\obj\Debug\Main Load.vbprojResolveAssemblyReference.cache
-C:\Users\NoPlayer\Desktop\MainLoad\Main Load\bin\Debug\Main Load.exe.config
-C:\Users\NoPlayer\Desktop\MainLoad\Main Load\bin\Debug\Main Load.exe.manifest
-C:\Users\NoPlayer\Desktop\MainLoad\Main Load\bin\Debug\Main Load.application
-C:\Users\NoPlayer\Desktop\MainLoad\Main Load\bin\Debug\Main Load.exe
-C:\Users\NoPlayer\Desktop\MainLoad\Main Load\bin\Debug\Main Load.pdb
-C:\Users\NoPlayer\Desktop\MainLoad\Main Load\bin\Debug\Main Load.xml
-C:\Users\NoPlayer\Desktop\MainLoad\Main Load\obj\Debug\Main Load.vbprojResolveAssemblyReference.cache
-C:\Users\NoPlayer\Desktop\MainLoad\Main Load\obj\Debug\Main_Load.Form1.resources
-C:\Users\NoPlayer\Desktop\MainLoad\Main Load\obj\Debug\Main_Load.Resources.resources
-C:\Users\NoPlayer\Desktop\MainLoad\Main Load\obj\Debug\Main Load.vbproj.GenerateResource.Cache
-C:\Users\NoPlayer\Desktop\MainLoad\Main Load\obj\Debug\Main Load.exe.manifest
-C:\Users\NoPlayer\Desktop\MainLoad\Main Load\obj\Debug\Main Load.application
-C:\Users\NoPlayer\Desktop\MainLoad\Main Load\obj\Debug\Main Load.exe
-C:\Users\NoPlayer\Desktop\MainLoad\Main Load\obj\Debug\Main Load.xml
-C:\Users\NoPlayer\Desktop\MainLoad\Main Load\obj\Debug\Main Load.pdb
