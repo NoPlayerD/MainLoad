@@ -4,7 +4,7 @@
   <description asmv2:iconFile="mainload.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <application />
   <entryPoint>
-    <assemblyIdentity name="Main Load" version="4.5.0.0" language="neutral" processorArchitecture="msil" />
+    <assemblyIdentity name="Main Load" version="5.0.0.0" language="neutral" processorArchitecture="msil" />
     <commandLine file="Main Load.exe" parameters="" />
   </entryPoint>
   <trustInfo>
@@ -44,13 +44,13 @@
   </dependency>
   <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Main Load.exe" size="66032">
-      <assemblyIdentity name="Main Load" version="4.5.0.0" language="neutral" processorArchitecture="msil" />
+      <assemblyIdentity name="Main Load" version="5.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>Gi5f9GrFzbb770owSW1LTGBpm5fkWTsFVbhrJwi8lkc=</dsig:DigestValue>
+        <dsig:DigestValue>sI3TOJMX6w86En55ektEt3mxtDsMMw7z9UqZJAygGJ0=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
