@@ -39,10 +39,10 @@ Partial Class Form1
         Me.ItemSilBtn = New System.Windows.Forms.Button()
         Me.ItemEkleBtn = New System.Windows.Forms.Button()
         Me.GroupBox5 = New System.Windows.Forms.GroupBox()
-        Me.ComboBox1 = New System.Windows.Forms.ComboBox()
         Me.Button5 = New System.Windows.Forms.Button()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Kilavuzbtn = New System.Windows.Forms.Button()
+        Me.ComboBox1 = New System.Windows.Forms.ComboBox()
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         Me.OpenFileDialog1 = New System.Windows.Forms.OpenFileDialog()
         Me.Button3 = New System.Windows.Forms.Button()
@@ -120,11 +120,13 @@ Partial Class Form1
         '
         Me.ListBox3.AllowDrop = True
         Me.ListBox3.BackColor = System.Drawing.Color.Black
+        Me.ListBox3.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ListBox3.ForeColor = System.Drawing.Color.White
         Me.ListBox3.FormattingEnabled = True
+        Me.ListBox3.ItemHeight = 16
         Me.ListBox3.Location = New System.Drawing.Point(6, 205)
         Me.ListBox3.Name = "ListBox3"
-        Me.ListBox3.Size = New System.Drawing.Size(274, 121)
+        Me.ListBox3.Size = New System.Drawing.Size(274, 116)
         Me.ListBox3.TabIndex = 4
         '
         'GroupBox1
@@ -227,16 +229,6 @@ Partial Class Form1
         Me.GroupBox5.TabStop = False
         Me.GroupBox5.Text = "Uygulama Ayarları"
         '
-        'ComboBox1
-        '
-        Me.ComboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
-        Me.ComboBox1.FormattingEnabled = True
-        Me.ComboBox1.Items.AddRange(New Object() {"English", "Turkish"})
-        Me.ComboBox1.Location = New System.Drawing.Point(540, 423)
-        Me.ComboBox1.Name = "ComboBox1"
-        Me.ComboBox1.Size = New System.Drawing.Size(125, 21)
-        Me.ComboBox1.TabIndex = 14
-        '
         'Button5
         '
         Me.Button5.ForeColor = System.Drawing.Color.Blue
@@ -267,6 +259,16 @@ Partial Class Form1
         Me.Kilavuzbtn.TabIndex = 1
         Me.Kilavuzbtn.Text = "Kılavuz"
         Me.Kilavuzbtn.UseVisualStyleBackColor = True
+        '
+        'ComboBox1
+        '
+        Me.ComboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.ComboBox1.FormattingEnabled = True
+        Me.ComboBox1.Items.AddRange(New Object() {"English", "Turkish"})
+        Me.ComboBox1.Location = New System.Drawing.Point(540, 423)
+        Me.ComboBox1.Name = "ComboBox1"
+        Me.ComboBox1.Size = New System.Drawing.Size(125, 21)
+        Me.ComboBox1.TabIndex = 14
         '
         'Timer1
         '

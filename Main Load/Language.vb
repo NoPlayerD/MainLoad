@@ -13,7 +13,7 @@
         msg(7) = "The sub-category folder has been successfully created."
         msg(8) = "Error, please try again."
 
-        If Not m = 8 Then
+        If m = 8 Then
             MsgBox(msg(m), MsgBoxStyle.Critical, "Error")
         Else
             MsgBox(msg(m), MsgBoxStyle.Information, "Successful")
@@ -43,7 +43,7 @@
         msg(7) = "Kategori altı klasör başarıyla oluşturuldu."
         msg(8) = "Hata, lütfen tekrar deneyin."
 
-        If Not m = 8 Then
+        If m = 8 Then
             MsgBox(msg(m), MsgBoxStyle.Critical, "Hata")
         Else
             MsgBox(msg(m), MsgBoxStyle.Information, "Başarılı")
